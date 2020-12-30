@@ -1,5 +1,6 @@
 import React from "react";
 import Pdf from "../../editable-stuff/resume.pdf";
+import Pdf2 from "../../editable-stuff/portfolio.pdf";
 
 import axios from "axios";
 

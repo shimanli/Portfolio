@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Shiman",
   middleName: "",
   lastName: "Li",
-  message: " Passionate about changing the world with technology. ",
+  message: " Seek for beauties in the world. ",
   icons: [
     {
       image: "fa-github",
@@ -17,19 +17,11 @@ const mainBody = {
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/shimanli",
+      url: "https://www.facebook.com/ziyang.li.5",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/shimanli/",
-    },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/shimanli/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/shimanli/",
+      url: "https://www.instagram.com/cynthiali0728/",
     },
   ],
 };
@@ -54,8 +46,9 @@ const about = {
   imageLink: require("../editable-stuff/shimanli.png"),
   imageSize: 375,
   message:
-    "My name is Shiman Li. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "My name is Shiman Li. I graduated from Donghua University, Shanghai, China, with a Master’s degree in Art Theory (Design Art) and a Bachelor’s degree in Textile Engineering (Knitting and Apparel). I am passionate about apparel history and culture differences between western and eastern world. Meanwhile, I have a dream to become an interactive designer in future. In my spare time I like literature and histories.",
   resume: require("../editable-stuff/resume.pdf"),
+  portfolio: require("../editable-stuff/portfolio.pdf"),
 };
 
 // PROJECTS SECTION
@@ -100,21 +93,21 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "Coreldraw", value: 80 },
+    { name: "Chinese Instrument Zheng", value: 95 },
+    { name: "Photoshop", value: 85 },
+    { name: "Fabric Analysis", value: 65 },
+    { name: "JavaScript", value: 60 },
     { name: "React", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Sketch Drawing", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 70 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Positivity", value: 85 },
+    { name: "Adaptability", value: 95 },
+    { name: "Problem Solving", value: 85 },
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
@@ -126,8 +119,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "shimanli@gmail.com",
+    "I’m currently seeking for PhD program of Dress History or MA degree of Interactive Design in United States. If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "shimanli@outlook.com",
 };
 
 // Blog SECTION
