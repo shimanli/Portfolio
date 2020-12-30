@@ -1,14 +1,15 @@
 # Portfolio
 
-## Development & Deployment
+## Dev
 
 To Start, run:
+
 	```bash
 	npm install
 	npm start
 	```
 
-To deploy website, run:
+To deploy, run:
 
 	```bash
 	npm run build
