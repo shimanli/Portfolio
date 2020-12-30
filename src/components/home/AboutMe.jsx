@@ -65,6 +65,20 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 </a>
               </p>
             )}
+            {portfolio && (
+              <p className="lead text-center">
+                <a
+                  className="btn btn-outline-dark btn-lg"
+                  href={portfolio}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  role="button"
+                  aria-label="Portfolio"
+                >
+                  Portfolio
+                </a>
+              </p>
+            )} 
           </div>
         </div>
       </div>
